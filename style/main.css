@@ -11,7 +11,7 @@
 
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Times, serif;
     color:white;
 }
 
@@ -24,9 +24,8 @@ header .container {
 
 header .logo {
     margin-left: 5px;
-    color: var(--vermelho);
-    font-family: 'Arial Black', Arial, Times;
-    font-size: 40px;
+    padding: 5px;
+    max-width: 225px;
 }
 
 header nav a {
@@ -98,7 +97,11 @@ header nav a:hover {
 }
 
 .box-movie{
-    height:80%;
-    width: 80%;
+    height:100%;
+    width:100%;
     display: block;
+}
+
+.carousel-movies {
+    margin-top: 5px;
 }
